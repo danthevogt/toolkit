@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+	<title>Spanish 41</title>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/character.css">
+	<script src="../Javascript/script.js"></script>
+	<script src="../Javascript/completion.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!--Completion bubble-->
+	<script type="text/JavaScript" src="../Javascript/loading-bar/loading-bar.js"></script>
+ 	 <link href="../Javascript/loading-bar/loading-bar.css" rel="stylesheet" type="text/css">
+</head>
+
+ <body onLoad="numberOfPages()" bgcolor="#FFFFFF" onUnload="saveNotes()">
+		
+	 
+	<div id="content">
+		
+		
+		<div class="page" id="1" style="z-index: 2">
+			<a name="content" href="#1"></a>
+			<h2 name="title">Title</h2>
+			
+			Content
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		<!---->
+		
+	</div>
+	 
+	 
+	 <!--Side Nav / Toolkit / Other Static items-->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 <!---->
+	 
+	<div>
+		<div class="vertical" id="vertical"><a id="toolTab" href="javascript:openTools()">Toolkit</a></div> 
+		<a class="skip-main" href="#page" id="skip">Skip to Lesson Pages</a>
+		<a class="skip-main" href="javascript:openTools()">Skip to Toolkit</a>
+	</div>
+	 
+	 <!-- Help content -->
+	<div id="myModal" class="modal">		
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Contact Information</h2>
+			</div>
+			<div class="modal-body">
+				<div>
+					<h4>Instructor / TA</h4>
+					<p>Instructor Email: <a href="mailto:david.felix@byu.edu">david.felix@byu.edu</a></p>
+					<p>TA Email: <a href="mailto:isspanishta@byu.edu">isspanishta@byu.edu</a></p>
+					<p>TA Phone: <a href="tel:8014222327">801-422-2327</a></p>
+				</div><hr>
+				<div>
+					<h4>Technical Support</h4>
+					<p>Customer Support: <a href="tel:18014224605">1-801-422-4605</a>, <a href="tel:18002988792">1-800-298-8792</a></p>
+					<p>Customer Support: <a href="mailto:tlsupport@byu.edu">tlsupport@byu.edu</a></p>
+					<p>Technical Support: <a href="tel:18014228524">1-801-422-8524</a>, <a href="tel:18778978085">1-877-897-8085</a></p>
+					<p>Technical Support: <a href="mailto:istech@byu.edu">istech@byu.edu</a></p>
+				</div>			
+			</div>
+		</div>
+	</div>
+	 
+	 
+	<div>
+	<!--Toolkit-->
+	<nav id="toolkitNav" class="glossary scrollbar scrollbar-primary">
+		<div class="force-overflow"></div>
+		<div style="float: left; position: fixed; color: #fff;"><a style="color: #fff;" class="exit" href="javascript:closeTools()" aria-label="Exit toolkit">&times;</a></div>		
+		<div style="float: right; position: relative; color: #fff; font-weight: 800; border: 2px solid #fff; border-radius: 100%;"><a style="color: #fff;" class="help" href="javascript:help()" aria-label="Help">&#63;</a></div><br>	
+		
+		<div align="center"><img alt="" class="img" src="../Media/Images/continuing-education.JPG"></div>
+		<!--Course Completion-->
+		<p id="completion" class="ldBar label-center" style="width: 60px; height: 60px; margin: auto" data-stroke="#fff" data-preset="circle" data-precision="0.1"></p>
+		<div style="width: 95px; position: absolute; left: 80px; bottom: 0"><p style="color: #fff; font-size: 12px;" id="courseCompletion">Course<br>Completion<br>Point</p></div>
+		
+		<p class="iframeA">
+			<a tabindex="0" class="toolLink" title="Unit Glossary" href="javascript:openNav('../Javascript/Lang-Learn-Apps/index.html')" id="toolkit"><img alt="" class="app" style="width: 5vw;" src="../Media/Images/glossary-app.JPG"></a>
+			<a tabindex="0" class="toolLink" title="Forvo" href="javascript:forvo()"><img alt="" class="app" style="width: 5vw;" src="../Media/Images/forvo-app.JPG"></a>
+			<a tabindex="0" class="toolLink" href="javascript:window.open('https://byuconed.adobeconnect.com/_a1021096775/spanishcafe')" title="Conversation Cafe" style="border: none; background: none;"><img alt="" class="app" style="width: 5vw;" src="../Media/Images/cafe-app.JPG"></a>
+			<a tabindex="0" class="toolLink" title="Google Translate" style="background-color: transparent; border: none; cursor: pointer;" href="https://www.wordreference.com/es/translation.asp" target="_blank"><img alt="" class="app" style="width: 5vw;" src="../Media/Images/translate-app.JPG"></a>
+			<a tabindex="0" class="toolLink" title="Verbs" href="javascript:openNav('../Javascript/Spanish-Map/Simple_Present_Tense-Regular_Verbs - Storyline output/story_html5.html')"><img alt="" class="app" style="width: 5vw;" src="../Media/Images/past-app.JPG"></a>
+			<a tabindex="0" class="toolLink" title="Videos" href="javascript:openNav('../Javascript/Video-Database/index.html')"><img alt="" class="app" style="width: 5vw;" src="home/images/video-logo.png"></a>
+		</p>
+		
+		<!--Student Notes-->
+		<div>				
+			<p class="iframeA">
+				Notes<br>
+				<textarea rows="6" id="notes"></textarea>			
+			</p>		
+		</div>
+		
+		<!--Glossary-->
+		<div id="wordTool" style="display: none; z-index: 10;">
+			<p class="iframeA">
+				<iframe id="h5p" title="Unit word list" src="https://byu.h5p.com/content/1290692211000459188/embed" width="1088" height="300vw" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://byu.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+			</p>
+		</div>
+		
+		<!--Forvo-->
+		<div id="forvoTool" style="display: none; z-index: 10;">
+			<p class="iframeA">
+				<label for="spanish" style="color: black">Spanish text: 	</label>
+				<input class="input1" type="text" id="spanish" onClick="selectAll()"><br><br>
+				<a tabindex="0" class="button" href="javascript:search()" id="srchButton">Search</a><br><br>
+				<iframe src="" width="100%" height="300vw" overflow="hidden" frameborder="0" id="iframe_A"></iframe>
+			</p>
+		</div>
+		
+		<!--Goal-->
+			<h3 style="color: red">My Goal:<br><span name="goal" style="color: #fff;"></span></h3>
+		<!---->
+		
+		<a class="skip-main" href="javascript:closeTools()">Exit toolkit</a>
+
+	 
+	 <!--Phone Side Nav-->
+<p class="switch" style="padding-bottom: 1.5vw;" id="switchMode">OFF</p>
+<label class="switch">
+  			<input id="switch" type="checkbox" onclick="alwaysOn()">
+  			<span class="slider round"></span>
+		</label>
+	</nav>
+	<!---->	
+	 
+	 <!--Phone Side Nav-->
+	<div class="hide">
+			<a class="phoneMenu" href="javascript:phoneToolKit()">&#9776;</a>
+	</div>
+
+		<div id="phoneToolKit" class="phoneToolKit">
+			<a href="javascript:void(0); closeee()" class="close">&times;</a>
+			<div style="padding-top: 85px;" class="parent">
+				
+				<a tabindex="0" class="toolLink" title="Unit Glossary" href="javascript:openNav('../Javascript/Lang-Learn-Apps/index.html')"><img alt="" class="app" src="../Media/Images/glossary-app.JPG"></a>
+				<a tabindex="0" class="toolLink" title="Forvo" href="javascript:forvo()"><img alt="" class="app" src="../Media/Images/forvo-app.JPG"></a>
+				<a tabindex="0" class="toolLink" href="javascript:window.open('https://byuconed.adobeconnect.com/_a1021096775/spanishcafe')" title="Conversation Cafe" style="border: none; background: none;"><img alt="" class="app" src="../Media/Images/cafe-app.JPG"></a>
+				<a tabindex="0" class="toolLink" title="Google Translate" style="background-color: transparent; border: none; cursor: pointer;" href="https://www.wordreference.com/es/translation.asp??()"><img alt="" class="app" src="../Media/Images/translate-app.JPG"></a>
+				<a tabindex="0" class="toolLink" title="Verbs" href="javascript:openNav('../Javascript/Spanish-Map/Simple_Present_Tense-Regular_Verbs - Storyline output/story_html5.html')"><img alt="" class="app"src="../Media/Images/past-app.JPG"></a>
+				<a tabindex="0" class="toolLink" title="Videos" href="javascript:openNav('../Javascript/Video-Database/index.html')"><img alt="" class="app" src="../Media/Images/video-logo.png"></a>
+			</div>
+			<div id="phoneTools"></div>
+		</div>
+	 
+	</div>
+	 
+	 
+	
+	<div id="verbs" class="verbs">
+		<a href="javascript:void(0); closeNav()" aria-label="Close" class="closebtn">&times;</a>
+		
+		<iframe id="toolNav" title="Content that covers multiple topics covered in the course." src="../Javascript/Spanish-Map/Simple_Present_Tense-Regular_Verbs - Storyline output/story_html5.html" width="100%" height="98%" frameborder="0"></iframe>
+		
+	</div>
+	 
+	 <script>
+	
+		var input = document.getElementById("spanish");
+			input.addEventListener("keyup", function(event) {
+				if (event.keyCode === 13) {
+				event.preventDefault();
+				document.getElementById("srchButton").click();
+			}
+		});
+		 
+		document.onkeydown = function(evt) {
+			evt = evt || window.event;
+			if (evt.keyCode == 27) {
+				closeNav();
+				document.getElementById("forvoTool").style.display = "none";
+				document.getElementById("wordTool").style.display = "none";
+				document.getElementById("skip").focus();
+			}
+		};
+		 
+		 // Help Box
+		var modal = document.getElementById("myModal");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		function help() {
+			modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		 
+//		 var input = document.getElementById("verbs");
+//			input.addEventListener("keyup", function(event) {
+//				if (event.keyCode === 27) {
+//				event.preventDefault();
+//				
+//			}
+//		});
+		 
+		
+		 
+	
+	</script>
+	
+	
+</body>
+</html>
